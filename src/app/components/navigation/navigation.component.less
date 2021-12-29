@@ -1,0 +1,28 @@
+@import '../../colors/colors.less';
+
+.row {
+  background-color: @pine-green;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 152px;
+  z-index: 1;
+
+  button {
+    margin-left: 15px;
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    top: 87px;
+
+    span:nth-of-type(2) {
+      display: none;
+    }
+  }
+}
