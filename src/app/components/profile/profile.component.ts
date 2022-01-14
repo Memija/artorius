@@ -54,8 +54,6 @@ export class ProfileComponent implements OnInit {
    */
   public summary!: string;
 
-  constructor() { }
-
   ngOnInit() {
     this.callToAction = language.profile.callToAction;
     this.designHeader = language.profile.design.header;
