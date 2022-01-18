@@ -1,0 +1,48 @@
+@import '../../colors/colors.less';
+
+.team {
+  background-color: @white;
+  font-size: 25px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  opacity: 0.9;
+  text-align: center;
+
+  .content {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    img {
+      padding-bottom: 5px;
+      min-width: 250px;
+      width: 25vw;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    .member {
+      padding-top: 25px;
+      width: -moz-fit-content;
+      width: fit-content;
+
+      .name {
+        float: left;
+      }
+
+      .title {
+        float: right;
+      }
+    }
+  }
+}

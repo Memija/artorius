@@ -1,0 +1,17 @@
+<div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 team'>
+  <div class='content'>
+    {{ header }}
+  </div>
+  <div class='members'>
+    <div
+      *ngFor='let member of members'
+      class='member'>
+      <img
+        src={{member.image}}
+        title={{member.name}}/>
+      <br/>
+      <span class='name'>{{member.name}}</span>
+      <span class='title'>{{member.title}}</span>
+    </div>
+  </div>
+</div>

@@ -33,5 +33,30 @@ export const englishLanguage = {
       projects: 'Projects'
     }
   },
-  slogan: 'Growing together'
+  slogan: 'Growing together',
+  team: {
+    header: 'Meet our team',
+    members: [
+      {
+        image: '../../../../assets/images/team/default-image.jpg',
+        name: 'Jane Doe',
+        title: 'Cub'
+      },
+      {
+        image: '../../../../assets/images/team/default-image.jpg',
+        name: 'John Doe',
+        title: 'Cub'
+      },
+      {
+        image: '../../../../assets/images/team/default-image.jpg',
+        name: 'Jane Doe',
+        title: 'Cub'
+      },
+      {
+        image: '../../../../assets/images/team/default-image.jpg',
+        name: 'John Doe',
+        title: 'Cub'
+      }
+    ]
+  }
 };

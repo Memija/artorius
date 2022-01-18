@@ -20,6 +20,7 @@ import * as components from './components';
     components.ProfileComponent,
     components.ProjectsComponent,
     components.RepositoryComponent,
+    components.TeamComponent,
     pipes.GitHubGistDescriptionPipe,
     pipes.GitHubRepositoryNamePipe
   ],

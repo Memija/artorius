@@ -33,5 +33,30 @@ export const germanLanguage = {
       projects: 'Projekte'
     }
   },
-  slogan: 'Zusammenwachsen'
+  slogan: 'Zusammenwachsen',
+  team: {
+    header: 'Triff unser Team',
+    members: [
+      {
+        image: '../../../../assets/images/team/default-image.jpg',
+        name: 'Jane Doe',
+        title: 'Cub'
+      },
+      {
+        image: '../../../../assets/images/team/default-image.jpg',
+        name: 'John Doe',
+        title: 'Cub'
+      },
+      {
+        image: '../../../../assets/images/team/default-image.jpg',
+        name: 'Jane Doe',
+        title: 'Cub'
+      },
+      {
+        image: '../../../../assets/images/team/default-image.jpg',
+        name: 'John Doe',
+        title: 'Cub'
+      }
+    ]
+  }
 };
