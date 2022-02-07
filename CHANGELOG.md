@@ -7,3 +7,7 @@ Initial version.
 ## Version 1.1.0
 
 Team section has been added.
+
+## Version 1.1.1
+
+Design related issues have been resolved.
