@@ -11,3 +11,7 @@ Team section has been added.
 ## Version 1.1.1
 
 Design related issues have been resolved.
+
+## Version 1.1.2
+
+Background update.
