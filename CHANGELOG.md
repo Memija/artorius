@@ -15,3 +15,8 @@ Design related issues have been resolved.
 ## Version 1.1.2
 
 Background update.
+
+## Version 1.1.4
+
+Dependencies have been updated.
+Development dependencies have been updated.
