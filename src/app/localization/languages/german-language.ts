@@ -1,4 +1,6 @@
 export const germanLanguage = {
+  // tslint:disable-next-line: max-line-length
+  cookiePolicyMessage: 'Die folgenden Technologien sind für den Betrieb der Website unerlässlich und können daher nicht deaktiviert werden.',
   knowledgeBase: {
     gists: 'Gists',
     noDescriptionAvailablePlaceholder: 'Die Beschreibung ist nicht verfügbar.',
@@ -28,6 +30,7 @@ export const germanLanguage = {
   },
   route: {
     name: {
+      cookiePolicy: 'Cookie-Richtlinie',
       home: 'Startseite',
       knowledgeBase: 'Wissensdatenbank',
       projects: 'Projekte'
@@ -38,24 +41,9 @@ export const germanLanguage = {
     header: 'Triff unser Team',
     members: [
       {
-        image: '../../../../assets/images/team/default-image.jpg',
-        name: 'Jane Doe',
-        title: 'Cub'
-      },
-      {
-        image: '../../../../assets/images/team/default-image.jpg',
-        name: 'John Doe',
-        title: 'Cub'
-      },
-      {
-        image: '../../../../assets/images/team/default-image.jpg',
-        name: 'Jane Doe',
-        title: 'Cub'
-      },
-      {
-        image: '../../../../assets/images/team/default-image.jpg',
-        name: 'John Doe',
-        title: 'Cub'
+        image: '../../../../assets/images/team/memic-anel.jpg',
+        name: 'Memic Anel',
+        title: 'Softwareingenieure'
       }
     ]
   }

@@ -7,12 +7,11 @@
       *ngFor='let member of members'
       class='member'>
       <img
-        alt={{member.name}}
-        src={{member.image}}
-        title={{member.name}}/>
-      <br/>
-      <span class='name'>{{member.name}}</span>
-      <span class='title'>{{member.title}}</span>
+        alt='{{ member.name }}'
+        src='{{ member.image }}'
+        title='{{ member.name }}'/>
+      <div>{{ member.name }}</div>
+      <div>{{ member.title }}</div>
     </div>
   </div>
 </div>

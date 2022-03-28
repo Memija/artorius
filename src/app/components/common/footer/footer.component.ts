@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { configuration } from 'src/app/configuration/configuration';
+import { language } from 'src/app/localization/language';
 import { DateUtility } from 'src/app/utils/date.utility';
 
 /**
@@ -13,6 +14,16 @@ import { DateUtility } from 'src/app/utils/date.utility';
   ]
 })
 export class FooterComponent implements OnInit {
+  /**
+  * Cookie policy route name.
+  */
+  public cookiePolicyRouteName!: string;
+
+  /**
+   * Cookie policy route value.
+   */
+  public cookiePolicyRouteValue!: string;
+
   /**
    * Contact email.
    */
@@ -34,6 +45,8 @@ export class FooterComponent implements OnInit {
   public year!: number;
 
   ngOnInit(): void {
+    this.cookiePolicyRouteName = language.route.name.cookiePolicy;
+    this.cookiePolicyRouteValue = configuration.route.value.cookiePolicy;
     this.email = configuration.contact.email;
     this.name = configuration.brand.name;
     this.version = configuration.version;

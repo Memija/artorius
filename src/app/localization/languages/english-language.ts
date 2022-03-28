@@ -1,4 +1,5 @@
 export const englishLanguage = {
+  cookiePolicyMessage: 'Following technologies are essential for the site operation and thus can not be disabled.',
   knowledgeBase: {
     gists: 'Gists',
     noDescriptionAvailablePlaceholder: 'Description is not available.',
@@ -28,6 +29,7 @@ export const englishLanguage = {
   },
   route: {
     name: {
+      cookiePolicy: 'Cookie policy',
       home: 'Home',
       knowledgeBase: 'Knowledge base',
       projects: 'Projects'
@@ -38,24 +40,9 @@ export const englishLanguage = {
     header: 'Meet our team',
     members: [
       {
-        image: '../../../../assets/images/team/default-image.jpg',
-        name: 'Jane Doe',
-        title: 'Cub'
-      },
-      {
-        image: '../../../../assets/images/team/default-image.jpg',
-        name: 'John Doe',
-        title: 'Cub'
-      },
-      {
-        image: '../../../../assets/images/team/default-image.jpg',
-        name: 'Jane Doe',
-        title: 'Cub'
-      },
-      {
-        image: '../../../../assets/images/team/default-image.jpg',
-        name: 'John Doe',
-        title: 'Cub'
+        image: '../../../../assets/images/team/memic-anel.jpg',
+        name: 'Memic Anel',
+        title: 'Software Engineer'
       }
     ]
   }

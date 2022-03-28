@@ -3,14 +3,14 @@
     <div class='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4'>
       <img
         alt='Brand logo'
-        src='{{logo}}'>
+        src='{{ logo }}'>
     </div>
     <div class='col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5'>
       <div class='name'>
         {{name}}
       </div>
       <div class='slogan'>
-        {{slogan}}
+        {{ slogan }}
       </div>
     </div>
     <div class='col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 buttons'>
@@ -20,7 +20,7 @@
           [ngClass]="{'btn-secondary': isEnglishLanguageSelected, 'btn-light': isGermanLanguageSelected}"
           (click)='setActiveLanguageToEnglish()'>
           <span>
-            {{englishLanguage}}
+            {{ englishLanguage }}
           </span>
         </button>
         <button
@@ -29,7 +29,7 @@
           [ngClass]="{'btn-secondary': isGermanLanguageSelected, 'btn-light': isEnglishLanguageSelected}"
           (click)='setActiveLanguageToGerman()'>
           <span>
-            {{germanLanguage}}
+            {{ germanLanguage }}
           </span>
         </button>
     </div>

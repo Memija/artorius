@@ -12,6 +12,7 @@ import * as components from './components';
   ],
   declarations: [
     AppComponent,
+    components.CookiePolicyComponent,
     components.FooterComponent,
     components.GistComponent,
     components.HeaderComponent,

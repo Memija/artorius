@@ -20,3 +20,12 @@ Background update.
 
 Dependencies have been updated.
 Development dependencies have been updated.
+
+## Version 1.2.5
+
+Cookie policy has been added.
+Team section has been updated.
+Style improvements have been made.
+Maintenance improvements have been made.
+Dependencies have been updated.
+Development dependencies have been updated.

@@ -1,0 +1,15 @@
+<div class="row cookie-policy">
+  {{ cookiePolicyMessage }}
+  <div *ngFor='let cookiePolicyItem of cookiePolicyItems'>
+    <a
+      href='{{ cookiePolicyItem.uniformResourceLocator }}'
+      rel='noopener'
+      target='_blank'>
+      <i
+        aria-hidden='true'
+        class='fa fa-external-link'>
+      </i>
+      {{ cookiePolicyItem.name }}
+    </a>
+  </div>
+</div>

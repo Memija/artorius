@@ -1,13 +1,13 @@
 <div class='github'>
   <div class='search'>
     <input
-      placeholder={{searchPlaceholder}}
+      placeholder='{{ searchPlaceholder }}'
       type='text'
       #searchTerm (keyup)='searchTerm'/>
   </div>
   <div *ngFor='let gitHubRepository of gitHubRepositories | gitHubRepositoryNamePipe: searchTerm.value'>
     <a
-      href='{{gitHubRepository.html_url}}'
+      href='{{ gitHubRepository.html_url }}'
       rel='noopener'
       target='_blank'>
       <i

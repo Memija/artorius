@@ -4,6 +4,14 @@ export const configuration = {
   brand: {
     name: 'Artorius'
   },
+  cookiePolicy: {
+    items: [
+      {
+        name: 'Google Fonts',
+        uniformResourceLocator: 'https://fonts.google.com/about'
+      }
+    ],
+  },
   contact: {
     email: 'anelmemija@gmail.com'
   },
@@ -28,10 +36,11 @@ export const configuration = {
   },
   route: {
     value: {
+      cookiePolicy: 'cookie-policy',
       home: '',
       knowledgeBase: 'knowledge-base',
       projects: 'projects'
     }
   },
-  version: '1.1.4'
+  version: '1.2.5'
 };
