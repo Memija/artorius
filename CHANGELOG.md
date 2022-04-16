@@ -29,3 +29,8 @@ Style improvements have been made.
 Maintenance improvements have been made.
 Dependencies have been updated.
 Development dependencies have been updated.
+
+## Version 1.2.7
+
+Dependencies have been updated.
+Development dependencies have been updated.
