@@ -34,3 +34,7 @@ Development dependencies have been updated.
 
 Dependencies have been updated.
 Development dependencies have been updated.
+
+## Version 1.2.8
+
+Links have been added.

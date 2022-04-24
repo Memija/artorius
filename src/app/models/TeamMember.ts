@@ -1,3 +1,5 @@
+import { Links } from './Links';
+
 /**
  * Team member.
  */
@@ -6,6 +8,11 @@
    * Image URL (Uniform Resource Locator).
    */
   image!: string;
+
+  /**
+   * Links.
+   */
+  links!: Links;
 
   /**
    * Name.

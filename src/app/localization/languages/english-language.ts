@@ -41,6 +41,9 @@ export const englishLanguage = {
     members: [
       {
         image: '../../../../assets/images/team/memic-anel.jpg',
+        links: {
+          medium: 'https://medium.com/@Memija'
+        },
         name: 'Memic Anel',
         title: 'Software Engineer'
       }
