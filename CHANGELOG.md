@@ -38,3 +38,8 @@ Development dependencies have been updated.
 ## Version 1.2.8
 
 Links have been added.
+
+## Version 1.2.10
+
+Dependencies have been updated.
+Development dependencies have been updated.
