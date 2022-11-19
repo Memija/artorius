@@ -134,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "artorius"
+  "defaultProject": "artorius",
+  "cli": {
+    "analytics": false
+  }
 }
